@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>DepEd Makati Student Portal</title>
+    <script src="addStudent.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img src="DepEd Makati Logo.png" alt="logo" width="160" height="160" />
+        <h2>DepEd Makati Student Portal</h2>
+        <p>Schools Division Office - Makati Cty</p>
+    </div>
+    <!-- Tabs -->
+    <div id="tabbed-content">
+        <ul class="tabs">
+            <li><a class="active" href="index.html">HOME</a></li>
+            <li><a href="add.html">ENROLL</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+        </ul>
+    </div><br><br><br>
+    <!-- Student Roster -->
+    <div id="student-list">
+        <h2 class="title">Student Roster</h2>
+        <ul>
+            <li>
+                <span class="name">Jean Tumaneng</span>
+                <span class="delete">Unenroll</span>
+            </li>
+            <li>
+                <span class="name">Maila Talamisan</span>
+                <span class="delete">Unenroll</span>
+            </li>
+            <li>
+                <span class="name">Emil Arboleda</span>
+                <span class="delete">Unenroll</span>
+            </li>
+            <li>
+                <span class="name">Zahr Tenepere</span>
+                <span class="delete">Unenroll</span>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <form id="add-student">
+            <input type="text" placeholder="Add a student..." />
+            <br> <button>Enroll</button><br>
+        </form>
+    </div>
+    <br><br/><br/>
+    <div id="search-bar">
+        <form id="search-student">
+            <input type="text" placeholder="Search student..." />
+        </form>
+    </div>
+    <!-- footer -->
+    <div>
+        <footer class="mt-5 p-3 text-center bg-light"><br>Copyright &copy; WEB DEVELOPMENT NCIII Trainees 2021 <br> under Sir Bobby Ferrer</footer>
+    </div>
+</body>
+
+</html>
